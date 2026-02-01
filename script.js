@@ -127,3 +127,11 @@ nextBtn.addEventListener("click", ()=>{
     }
 })
 startQuestion();
+
+const intro = document.querySelector(".intro")
+
+document.addEventListener("DOMContentLoaded", (e) =>{
+    setTimeout(() => {
+        intro.classList.add("none");
+    }, 2000);
+})
